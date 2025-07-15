@@ -1,0 +1,81 @@
+### Obtener todas las categorías
+GET http://localhost:3000/categorias
+Accept: application/json
+
+###
+
+### Obtener una categoría por ID
+GET http://localhost:3000/categorias/1
+Accept: application/json
+
+###
+
+### Crear una nueva categoría
+POST http://localhost:3000/categorias
+Content-Type: application/json
+
+{
+  "nombre": "Gamer"
+  }
+
+###
+
+### Actualizar una categoría
+PUT http://localhost:3000/categorias/1
+Content-Type: application/json
+
+{
+  "nombre": "Tecnología y Gadgets"
+}
+
+###
+
+### Eliminar una categoría
+DELETE http://localhost:3000/categorias/1
+Accept: application/json
+
+###
+
+### Obtener todos los productos
+GET http://localhost:3000/productos
+Accept: application/json
+
+###
+
+### Obtener un producto por ID
+GET http://localhost:3000/productos/1
+Accept: application/json
+
+###
+
+### Crear un nuevo producto
+POST http://localhost:3000/productos
+Content-Type: application/json
+
+{
+  "nombre": "Tablet sencillititititta",
+  "precio": 750.50,
+  "descripcion": "Tablet de 12 pulgadas con lápiz óptico",
+  "disponible": true,
+  "categoria_id": 1
+}
+
+###
+
+### Actualizar un producto existente
+PUT http://localhost:3000/productos/1
+Content-Type: application/json
+
+{
+  "nombre": "Tablet Pro Max",
+  "precio": 899.99,
+  "descripcion": "Tablet con pantalla AMOLED y lápiz óptico",
+  "disponible": false,
+  "categoria_id": 1
+}
+
+###
+
+### Eliminar un producto
+DELETE http://localhost:3000/productos/1
+Accept: application/json
