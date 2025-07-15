@@ -147,7 +147,3 @@ Desarrollado por **David Gevawer** para fines académicos y prácticos.
 ## 📂 Licencia
 
 Este proyecto es de uso libre para fines educativos y de aprendizaje. No se recomienda usarlo directamente en producción sin mejoras de seguridad y autenticación.
-
-```
-
-```
